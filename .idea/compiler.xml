@@ -8,14 +8,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-provider-payment8001" />
-        <module name="cloud-skeleton" />
+        <module name="cloud-consumer-order8002" />
         <module name="cloud-eureka-server7001" />
-        <module name="cloud-consumer-order80" />
+        <module name="cloud-eureka-server7002" />
+        <module name="cloud-skeleton" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="cloud-consumer-order80" target="1.8" />
+      <module name="cloud-consumer-order8002" target="1.8" />
       <module name="cloud-eureka-server7001" target="1.8" />
+      <module name="cloud-eureka-server7002" target="1.8" />
       <module name="cloud-provider-payment8001" target="1.8" />
       <module name="cloud-skeleton" target="1.8" />
       <module name="cloud2020" target="1.8" />
